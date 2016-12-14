@@ -179,11 +179,11 @@ text-align: center;
 }
 
 #logo {
+  background-repeat: no-repeat;
+  background-size: 367px 70px;
   background-image: url("../img/strive.jpg");
   width: 367px;
   height: 70px;
-  text-align: center;
-  line-height: 70px;
   float: left;
 }
 #logo h1 {
