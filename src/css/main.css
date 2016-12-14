@@ -179,8 +179,7 @@ text-align: center;
 }
 
 #logo {
-
-  background-color:white;  
+  background-image: url("../img/strive.jpg");
   width: 367px;
   height: 70px;
   text-align: center;
