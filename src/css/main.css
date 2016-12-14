@@ -88,7 +88,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-background-color: #BEAEA6;
+background-color: #7FC477;
+background-image: url("../img/background.jpg");
 margin: 0px;
 }
 
@@ -112,7 +113,6 @@ margin: 0px;
   padding: 0px;
 }
 #banner p{
-
   font-size: 40px;
   position: absolute;
   bottom: 0px;
@@ -158,7 +158,7 @@ text-align: center;
 
 #menu {
   font-family: 'Raleway', sans-serif;
-  background-color:#027534;
+  background-color:#5DBF4E;
   font-size: 15px;
   text-align: center;
   width: 593px;
@@ -190,8 +190,10 @@ text-align: center;
 }
 #feature1, #feature2 {
   font-family: 'EB Garamond', serif;
+  font-size: 14 px;
+  line-height: 22px;
   color:black;
-  background-color: #D6D7C9;
+  background-color: #F2F4F0;
   border: 1px solid #000000;
   float: left;
   width: 477px; 
@@ -217,7 +219,7 @@ button{
   line-height:70px;
   font-size: 15px;
   text-align: center;
-  background-color: #027534;
+  background-color: #5DBF4E;
   clear: both;
 }
 #footer a{
