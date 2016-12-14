@@ -87,116 +87,152 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: Sans-Serif;
+body{
+background-color: #015823;
+margin: 0px;
 }
 
-p {
-  font-family: Serif;
-}
-
-.color1 {
-  background-color: #244687;
-  color: #FFFFFF;
-}
-.color1 a {
-  color: #FFFFFF;
-}
-.color2 a {
-  color: #FFFFFF;
-}
-.color2 {
-  background-color: #944436;
-  color: #FFFFFF;
-}
-
-.color3 {
-  background-color: #0A1A3A;
-  color: #FFFFFF;
-}
-.color3 a {
- color: #FFFFFF;
-
-}
-.color4 {
-  background-color: #3E540E;
-  color: #FFFFFF;
-}
-.color4 a {
-  color: #FFFFFF;
-}
-   
 #wrapper {
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
-   border: 1px solid;
-}
-#header {
-   background-color: gray;
-   height: 86px;
-   line-height: 86px;
-}
-#logo {
-  width: 367px;
-  float: left;
-}
-#menu {
-  width: 562px;
-  float: left;
-  text-align: right;
-  padding-right: 31px;
-}
-#menu a {
-  font-family: Sans-Serif;
-  font-size: 20px;
-
-}
-#menu ul {
-  margin: 0px;
-  padding: 0px;
-}
-#menu li {
-  display: inline;
-}
-#logo img {
-  height: 86px;
-  width: 86px;
-}
-#callout1, #callout2, #callout3 {
-  float: left;
-  width: 320px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;  
 }
 #banner {
+  color: white;
   clear: both;
-  background-color: green;
-  height: 366px;
-  line-height: 366px;
-  padding-left: 31px;
-  padding-right: 31px;
-  background-image: url('../img/banner.jpg');
-  background-position-x: 115px;
+  height: 480px;
+  width: 960px;
+  background-image: url("../img/gym.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  position: relative;
 }
 #banner h1 {
   margin: 0px;
+  padding: 0px;
 }
+#banner p{
+
+  font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+li:hover{
+background-color:#
+}
+h2{
+font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+#content{
+  font-family: 'EB Garamond', serif;
+  height: auto;
+  background-color:white;
+  border: 1px solid #000000;
+}
+#content li{
+  font-family: 'EB Garamond', serif;
+}
+#ccontent{
+  font-family: 'EB Garamond', serif;
+  text-align:center;
+  background-color:white;
+  border: 1px solid #000000;
+  height: 535px;
+  width: 958px;
+}
+#ccontent table{
+  font-family: 'EB Garamond', serif;
+  height: 350px;
+  margin: auto;
+  left: auto;
+  right: auto;
+} 
+
+#header {  
+  background-color:white;
+  height: 70px;
+  line-height: 70px;
+}
+
+#menu {
+  font-family: 'Raleway', sans-serif;
+  background-color:#237142;
+  font-size: 15px;
+  text-align: center;
+  width: 593px;
+  height: 70px;
+  float: left;
+ 
+ 
+}
+#menu ul{
+  margin: 0px;
+  padding: 0px;
+}
+#menu li{
+  display:inline;
+}
+#menu a {
+  color: white;
+}
+
+#logo {
+
+  background-color:white;  
+  width: 367px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  float: left;
+}
+#logo h1 {
+  padding: 0px;
+  margin: 0px;
+}
+#feature1, #feature2 {
+  font-family: 'EB Garamond', serif;
+  color:black;
+  background-color: #D6D7C9;
+  border:1px solid #000000;
+  float: left;
+  width: 476px; 
+  height: 280px;
+  text-align:center;
+}
+
+#banner img {
+  width: 100%;
+}
+
 #footer {
+  font-family: 'Raleway', sans-serif;
+  width:960px;
+  height: 70px;
+  line-height:70px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #237142;
   clear: both;
 }
-#main_content {
-  width: 545px;
-  padding-left: 24px;
-  padding-right: 24px;
-  float: left;
-  font-size: 19px;
-  line-height: 28px;
+#footer a{
+  color:white;
 }
-#sidebar {
+#footer li{
+  display:inline;
+  }
+#footer ul{
+  margin: 0px;
+  padding: 0px;
+}
 
-  width: 367px;
-  float: left;
-}
+
+
+
+
+
+
 
 
 
@@ -220,10 +256,6 @@ p {
 /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
 .visuallyhidden {
@@ -235,7 +267,6 @@ p {
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
 }
 
 /*
@@ -252,7 +283,6 @@ p {
     overflow: visible;
     position: static;
     width: auto;
-    white-space: inherit;
 }
 
 /*
@@ -311,10 +341,7 @@ p {
     *,
     *:before,
     *:after,
-    p:first-letter,
-    div:first-letter,
-    blockquote:first-letter,
-    li:first-letter,
+    *:first-letter,
     p:first-line,
     div:first-line,
     blockquote:first-line,
