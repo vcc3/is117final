@@ -168,9 +168,9 @@ text-align: center;
   font-family: 'EB Garamond', serif;
   height: 1577px;
   width: 327px;
-  padding: 19px;
+  padding: 19px;  
   background-color:white;
-  float:left;
+  float:right;
   border: 1px solid #000000;
 }
 #content li{
